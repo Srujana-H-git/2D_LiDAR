@@ -1,11 +1,11 @@
-import serial  # Import the pyserial module
+import serial  
 import time
 import matplotlib.pyplot as plt
 import numpy as np
-from serial import SerialException  # Explicitly import SerialException
+from serial import SerialException  
 
 # Configure the serial port
-serial_port = "COM8"  # Replace with your Arduino's port (e.g., "/dev/ttyUSB0" on Linux)
+serial_port = "COM8"  
 baud_rate = 115200
 timeout = 2  # Timeout in seconds
 
