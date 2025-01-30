@@ -7,14 +7,14 @@ This project involves designing and implementing a low-cost 2D LiDAR system capa
 - Real-time visualization of the mapped data.
 - Optional integration with ROS2 for visualization in Rviz2.
 
-The system uses an ESP32 microcontroller, a Time-of-Flight (ToF) sensor, and a stepper motor to create a functional LiDAR solution. This README serves as a guide for understanding the project and replicating the setup.
+The system uses an Arduino nano microcontroller, a Time-of-Flight (ToF) sensor, and a stepper motor to create a functional LiDAR solution. This README serves as a guide for understanding the project and replicating the setup.
 
 ---
 
 ## Components
 
 ### 1. Hardware Components
-- **ESP32 Microcontroller**: For processing sensor data and controlling the motor.
+- **Arduino nano Microcontroller**: For processing sensor data and controlling the motor.
 - **ToF Sensor (e.g., VL53L0X)**: Measures distances in real-time.
 - **Stepper Motor**: Enables rotational scanning of the environment.
 - **Motor Driver (e.g., ULN2003 or A4988)**: Drives the stepper motor.
@@ -25,7 +25,7 @@ The system uses an ESP32 microcontroller, a Time-of-Flight (ToF) sensor, and a s
   - Connecting wires, breadboard, or PCB.
 
 ### 2. Software Requirements
-- **Arduino IDE**: For programming the ESP32.
+- **Arduino IDE**: For programming the Arduino.
 - **Python **: For real-time plotting and visualization using libraries such as Matplotlib or PyQt.
 - **ROS2 and Rviz2 **: For advanced visualization.
 
@@ -53,7 +53,7 @@ The system uses an ESP32 microcontroller, a Time-of-Flight (ToF) sensor, and a s
    - Angular data is synchronized with the distance readings.
 
 2. **Data Processing**:
-   - ESP32 converts distance and angle into Cartesian coordinates.
+   - Arduino converts distance and angle into Cartesian coordinates.
    - Noise filtering algorithms (e.g., Kalman filter) enhance accuracy.
 
 3. **Visualization**:
@@ -65,19 +65,18 @@ The system uses an ESP32 microcontroller, a Time-of-Flight (ToF) sensor, and a s
 ## Circuit Diagram
 
 ### Key Connections:
-1. **ESP32**:
+1. **Arduino**:
    - SDA: GPIO21
    - SCL: GPIO22
 2. **ToF Sensor**:
    - VCC: 3.3V
    - GND: GND
 3. **Stepper Motor Driver**:
-   - Connect IN1-IN4 to ESP32 GPIO pins.
+   - Connect IN1-IN4 to Arduino GPIO pins.
    - Connect motor wires to OUT1-OUT4.
 4. **Power**:
    - Use USB breakout board for external 5V supply if needed.
 
-Refer to the project folder for the complete schematic.
 
 ---
 
