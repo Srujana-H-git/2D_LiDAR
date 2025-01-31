@@ -111,12 +111,11 @@ while scanning:
 
 ## Evaluation Metrics
 
-1. **Accuracy**: Distance measurement precision (2-5% margin of error).
+1. **Accuracy**: Distance measurement precision 
 2. **Efficiency**: Real-time processing capability.
 3. **Durability**: Robust physical design.
 4. **User Interface**: Intuitive and interactive plotting tool.
 
----
 
 ## Future Work
 
@@ -124,7 +123,6 @@ while scanning:
 2. Explore higher-resolution ToF sensors for better accuracy.
 3. Enhance the visualization interface with additional features.
 
----
 
 
 
