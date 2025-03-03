@@ -29,7 +29,6 @@ The system uses an Arduino nano microcontroller, a Time-of-Flight (ToF) sensor, 
 - **Python **: For real-time plotting and visualization using libraries such as Matplotlib or PyQt.
 - **ROS2 and Rviz2 **: For advanced visualization.
 
----
 
 ## Features
 
