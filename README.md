@@ -116,12 +116,6 @@ while scanning:
 4. **User Interface**: Intuitive and interactive plotting tool.
 
 
-## Future Work
-
-1. Improve dynamic calibration under extreme environmental conditions.
-2. Explore higher-resolution ToF sensors for better accuracy.
-3. Enhance the visualization interface with additional features.
-
 
 
 
