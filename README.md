@@ -106,14 +106,6 @@ while scanning:
 ### Challenge: Real-time visualization latency.
 **Solution**: Optimize data processing and communication protocols (e.g., ESP-NOW).
 
----
-
-## Evaluation Metrics
-
-1. **Accuracy**: Distance measurement precision 
-2. **Efficiency**: Real-time processing capability.
-3. **Durability**: Robust physical design.
-4. **User Interface**: Intuitive and interactive plotting tool.
 
 
 
