@@ -106,7 +106,8 @@ while scanning:
 ### Challenge: Real-time visualization latency.
 **Solution**: Optimize data processing and communication protocols (e.g., ESP-NOW).
 
-
+# 3D SCANNER
+## To develop a 3d scanner using TOF sensor, Stepper Motor, Servo Motor
 
 
 
