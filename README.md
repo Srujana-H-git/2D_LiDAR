@@ -12,7 +12,6 @@ The system uses an Arduino nano microcontroller, a Time-of-Flight (ToF) sensor, 
 
 --
 
-
 ## Components
 
 ## 1. Hardware Components
