@@ -7,7 +7,6 @@ This project involves designing and implementing a low-cost 2D LiDAR system capa
 - Real-time visualization of the mapped data.
 - Optional integration with ROS2 for visualization in Rviz2.
 
-
 The system uses an Arduino nano microcontroller, a Time-of-Flight (ToF) sensor, and a stepper motor to create a functional LiDAR solution. This README serves as a guide for understanding the project and replicating the setup.
 
 --
