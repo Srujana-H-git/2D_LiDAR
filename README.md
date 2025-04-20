@@ -1,5 +1,6 @@
 # Low-Cost 2D LiDAR
 
+
 ## Overview
 This project involves designing and implementing a low-cost 2D LiDAR system capable of:
 
