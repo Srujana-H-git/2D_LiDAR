@@ -4,6 +4,7 @@
 ## Overview
 This project involves designing and implementing a low-cost 2D LiDAR system capable of:
 
+
 - Accurate detection and mapping of 2D surroundings.
 - Real-time visualization of the mapped data.
 - Optional integration with ROS2 for visualization in Rviz2.
