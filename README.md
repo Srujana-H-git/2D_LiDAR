@@ -46,6 +46,7 @@ The system uses an Arduino nano microcontroller, a Time-of-Flight (ToF) sensor, 
 
 ---
 
+
 ## System Architecture
 
 1. **Data Acquisition**:
